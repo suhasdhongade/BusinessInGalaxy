@@ -12,7 +12,7 @@ namespace BusinessInGalaxy.Controller
         public void TranslateDigits(GalaxyModel model, string line)
         {
 
-           
+                      
         }
     }
 
