@@ -11,8 +11,8 @@ namespace BusinessInGalaxy.Controller
     {
         public void TranslateDigits(GalaxyModel model, string line)
         {
+            string[] words = line.Split(new[] { " is " }, StringSplitOptions.RemoveEmptyEntries);
 
-                      
         }
     }
 
