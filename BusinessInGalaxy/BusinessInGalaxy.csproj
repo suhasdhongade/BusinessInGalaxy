@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller\ITranslateMetals.cs" />
-    <Compile Include="Controller\ITranslatorTranslateDigits.cs" />
+    <Compile Include="Controller\ITranslator.cs" />
     <Compile Include="Controller\DigitsTranslator.cs" />
     <Compile Include="Controller\MetalTranslator.cs" />
+    <Compile Include="Controller\Processor.cs" />
     <Compile Include="GalaxyReference\Metals.cs" />
     <Compile Include="GalaxyReference\Subtitute.cs" />
     <Compile Include="GalaxySystem\Galaxy.cs" />

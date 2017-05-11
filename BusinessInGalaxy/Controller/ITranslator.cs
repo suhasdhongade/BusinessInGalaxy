@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace BusinessInGalaxy.Controller
 {
-    interface ITranslatorTranslateDigits
+    interface ITranslator
     {
-        void TranslateDigits(GalaxyModel model, string line);
+        void Translate(GalaxyModel model);
     }
-   
 }

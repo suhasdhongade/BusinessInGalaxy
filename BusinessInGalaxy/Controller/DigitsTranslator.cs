@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 
 namespace BusinessInGalaxy.Controller
 {
-    class DigitsTranslator : ITranslatorTranslateDigits
+    class DigitsTranslator : ITranslator
     {
-        public void TranslateDigits(GalaxyModel model, string line)
+        public void Translate(GalaxyModel model)
         {
-            string[] words = line.Split(new[] { " is " }, StringSplitOptions.RemoveEmptyEntries);
-
+            string[] words = model.InputData[0].Split(new[] { " is " }, StringSplitOptions.RemoveEmptyEntries);
         }
     }
 

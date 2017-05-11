@@ -7,9 +7,9 @@ using BusinessInGalaxy.Model;
 
 namespace BusinessInGalaxy.Controller
 {
-    class MetalTranslator : ITranslateMetals
+    class MetalTranslator : ITranslator
     {
-        public void TranslateMetals(GalaxyModel model)
+        public void Translate(GalaxyModel model)
         {
             throw new NotImplementedException();
         }
